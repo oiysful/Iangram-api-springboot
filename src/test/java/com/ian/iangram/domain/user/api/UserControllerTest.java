@@ -36,9 +36,6 @@ class UserControllerTest {
     @Autowired
     private WebApplicationContext context;
     @Autowired
-    private UserController userController;
-
-    @Autowired
     UsersRepository usersRepository;
 
     @BeforeEach
